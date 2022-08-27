@@ -1,11 +1,20 @@
 {
   "name": "ndst-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "main": "./lib/ndst-ui.common.js",
+  "files": [
+    "lib/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name ndst-ui --dest lib"
   },
   "dependencies": {
     "core-js": "^3.8.3",
