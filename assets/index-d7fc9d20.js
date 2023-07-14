@@ -1,1 +1,0 @@
-import{_ as s,l as _,r as n,o as t,c as a,b as c}from"./index-ef510d49.js";const d={class:"videoPlayer"},l={__name:"index",setup(r){const e=_("8888883271");return(p,i)=>{const o=n("nd-videoplay");return t(),a("div",d,[c(o,{busCode:e.value},null,8,["busCode"])])}}},v=s(l,[["__scopeId","data-v-f3257147"]]);export{v as default};
